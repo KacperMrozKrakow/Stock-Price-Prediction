@@ -50,3 +50,25 @@ To get started, clone this repository and install the required libraries.
    ```bash
    git clone https://github.com/KacperMrozKrakow/Stock-Price-Prediction.git
    cd Stock-Price-Prediction
+2. Set up a virtual environment:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+3. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+
+Once all dependencies are installed, you can run the script to fetch stock data, train the LSTM model, and generate predictions.
+   
+   python main.py
+
+The program will:
+
+- Fetch historical stock data for Apple, Tesla, Nvidia, and Meta using yfinance.
+- Analyze the data, including visualizations of moving averages, daily returns, and more.
+- Train an LSTM model to predict the next day's opening price.
+- Plot the predicted values versus the actual values.
+
+   
