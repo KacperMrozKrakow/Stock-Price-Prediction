@@ -77,14 +77,19 @@ The results include:
 
 
 -Visualization: Includes graphs of moving averages, daily returns, and histogram distributions of returns for each stock.
+
 ![MovingAverages](https://github.com/user-attachments/assets/9ceb3c7d-b1fd-4e73-9f5f-1a72f69f93e8)
+
 ![DailyReturns](https://github.com/user-attachments/assets/b460c980-654d-45b3-9ef0-2ec4c3b051f4)
+
 ![DailyReturnsHistograms](https://github.com/user-attachments/assets/dcc75d48-eda0-4e76-bc6e-b98bb16c0141)
 
 -Risk and Return Analysis: The project visualizes the expected return versus risk for each stock, giving insights into their volatility.
+
 ![ReturnVsRiskPlot](https://github.com/user-attachments/assets/9e87b8bb-839f-40da-b02b-7be501d280c0)
 
 -Predicted Stock Prices: LSTM models predict future opening prices based on historical data.
+
 ![ApplePredicted](https://github.com/user-attachments/assets/2cba896e-3fc8-4850-8880-d6fedc293a4d)
 
 
