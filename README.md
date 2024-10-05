@@ -58,10 +58,8 @@ To get started, clone this repository and install the required libraries.
 
 ## Usage
 
-Once all dependencies are installed, you can run the script to fetch stock data, train the LSTM model, and generate predictions.
+Once all dependencies are installed, you can run the script to fetch stock data, train the LSTM model, and generate predictions on any publicly listed company.
    
-   python main.py
-
 The program will:
 
 - Fetch historical stock data for Apple, Tesla, Nvidia, and Meta using yfinance.
@@ -72,9 +70,6 @@ The program will:
 ## Results
 
 The results include:
-
-
-
 
 -Visualization: Includes graphs of moving averages, daily returns, and histogram distributions of returns for each stock.
 
